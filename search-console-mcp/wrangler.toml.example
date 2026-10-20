@@ -1,0 +1,11 @@
+name = "search-console-mcp"
+main = "src/worker.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+SITE_URL = "sc-domain:example.com"
+
+[observability]
+enabled = true
+
+# Secrets are NOT stored here. Set them with: npx wrangler secret put <NAME>

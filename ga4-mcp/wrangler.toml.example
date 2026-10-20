@@ -1,0 +1,11 @@
+name = "ga4-mcp"
+main = "src/worker.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+GA4_PROPERTY_ID = "<ga4-property-id-digits-only>"
+
+[observability]
+enabled = true
+
+# Secrets are NOT stored here. Set them with: npx wrangler secret put <NAME>
